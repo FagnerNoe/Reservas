@@ -356,4 +356,8 @@ footer{
     .formulario-campo-duplo div, .radio div{
         width: 100%;
     }
+
+    .topo-titulo{
+        font-size: 12px;
+    }
 }
