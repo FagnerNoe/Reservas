@@ -209,6 +209,15 @@ button{
     width: 100%;
     height: 100%;
    object-fit: cover;
+   position: relative;
+   cursor: pointer;
+   transition: all .0.5s;
+}
+
+.oferta-quatro-imagens img:hover , .oferta-imagem-destaque img:hover{
+    -webkit-transform: scale(1.1);
+    transform:scale(1.1);    
+    box-shadow: 0 0 30px black;
 }
 
 .oferta-imagem-destaque figcaption, .oferta-quatro-imagens figcaption{
